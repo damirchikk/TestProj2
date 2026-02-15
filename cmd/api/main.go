@@ -9,4 +9,6 @@ import (
 func main() {
 	slogger := logger.New()
 	slog.SetDefault(slogger)
+	slog.SetDefault(slogger)
+	slog.SetDefault(slogger)
 }

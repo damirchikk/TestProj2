@@ -10,8 +10,7 @@ func New() *slog.Logger {
 	logger := slog.New(
 		slog.NewTextHandler(os.Stdout, &slog.HandlerOptions{
 			Level: slog.LevelDebug,
-		}), //TUDO
-	)
+		})) //TUDO
 
 	return logger
 
